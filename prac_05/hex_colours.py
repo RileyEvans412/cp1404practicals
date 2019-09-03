@@ -11,7 +11,7 @@ HEX_COLOURS = {"blue violet": "#8a2be2", "chocolate": "#d2691e", "coral": "#ff7f
 user_colour = input("Please enter a colour name: ").lower()
 while user_colour != "":
     if user_colour in HEX_COLOURS:
-        print(user_colour + "'s colour code is " + HEX_COLOURS[user_colour])
+        print("{}'s colour code is {}".format(user_colour, HEX_COLOURS.get(user_colour)))
     else:
         print("Invalid colour: ")
     user_colour = input("Please enter a colour name: ").lower()
