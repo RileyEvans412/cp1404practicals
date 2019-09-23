@@ -1,5 +1,5 @@
 """
-CP1404/CP5632 Practical - Suggested Solution
+CP1404/CP5632 Practical
 """
 from prac_06.programming_language import ProgrammingLanguage
 
@@ -13,7 +13,7 @@ def main():
     print("The dynamically typed languages are:")
     for language in languages:
         if language.is_dynamic():
-            print(language.name, language.year)
+            print("{self.name}, {self.year}".format(self=language))
 
 
 if __name__ == '__main__':
