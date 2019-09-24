@@ -1,5 +1,5 @@
 """
-Comparing Programming Languages
+CP1404 Practical - Programming Language class
 """
 
 

@@ -1,5 +1,5 @@
 """
-CP1404 Practical - Code for car class
+CP1404 Practical - Car program
 """
 
 from prac_06.car import Car

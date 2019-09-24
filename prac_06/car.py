@@ -1,5 +1,5 @@
 """
-CP1404 Practical - Car class.
+CP1404 Practical - Car class for car program.
 """
 
 
